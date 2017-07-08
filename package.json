@@ -10,7 +10,7 @@
     "build": "ngc -p tsconfig.json",
     "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
     "test": "tsc && karma start",
-    "prepare": "tsc && npm run build",
+    "prepare": "tsc",
     "tsc": "tsc"
   },
   "keywords": [
